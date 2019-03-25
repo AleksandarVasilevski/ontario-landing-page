@@ -286,10 +286,18 @@ header{
   font-weight: bold;
 }
 
+.answer{
+  display: none;
+}
+
 .fa-plus, .fa-minus{
   position: absolute;
   top: 2px;
   right: 2px;
+}
+
+.fa-plus:hover, .fa-minus:hover{
+  cursor: pointer;
 }
 
 .contact{
@@ -303,25 +311,24 @@ header{
 }
 
 .contact form{
-  padding-left: 350px;
-  padding-right: 350px;
+  padding: 0 550px;
 }
 
 .contact form input{
   padding: 20px;
-  margin: 10px;
   background-color: #ecf1f4;
   border: 0px;
 }
 
 #input-name, #input-email{
   height: 60px;
-  width: 320px;
+  width: 49%;
+  margin-bottom: 10px;
 }
 
 #input-message{
-  width: 660px;
   height: 150px;
+  width: 99%;
 }
 
 #input-send{
