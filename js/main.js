@@ -9,15 +9,3 @@ $(".fas").click(function(event){
 	 	$(this).siblings(".answer").hide();
 	 }
 });
-
-// $( ".fas" ).on( "click", function( event ) {
-// 	cosole.log(event);
-// });
-
-function showAnswer(){
-
-}
-
-function hideAnswer(){
-
-}

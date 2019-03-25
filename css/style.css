@@ -314,24 +314,24 @@ header{
   padding: 0 550px;
 }
 
-.contact form input{
+.contact form input, form textarea{
   padding: 20px;
   background-color: #ecf1f4;
   border: 0px;
 }
 
-#input-name, #input-email{
+#contact-input-name, #contact-input-email{
   height: 60px;
   width: 49%;
   margin-bottom: 10px;
 }
 
-#input-message{
+#contact-input-message{
   height: 150px;
   width: 99%;
 }
 
-#input-send{
+#contact-input-send{
   width: 200px;
   margin: auto;
   margin-top: 30px;
@@ -347,7 +347,7 @@ header{
   border-radius: 50px;
 }
 
-#input-send:hover{
+#contact-input-send:hover{
   color: #fff;
   background-color: #0f81f8;
 }
@@ -384,4 +384,67 @@ header{
   padding-top: 30px;
   padding-right: 80px;
   font-size: 14px;
+}
+
+/* Login */
+.login{
+  border-top: 2px solid #C0C0C0;
+  height: 700px;
+}
+
+.my-plan{
+  background-color: #0f81f8;
+}
+
+.my-plan h4{
+  text-align: center;
+  margin-top: 90px;
+  margin-bottom: 30px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.my-plan p{
+  text-align: center;
+  margin-top: 40px;
+}
+
+.my-plan a{
+  color: #fff;
+  text-decoration: underline;
+  font-size: 17px;
+}
+
+
+.my-plan-box{
+  width: 380px;
+  height: 390px;
+  margin: auto;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.my-plan-box h5{
+  padding-top: 60px;
+  padding-bottom: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #afafaf;
+}
+
+.my-plan-box p{
+  margin-top: 0px;
+  text-align: center;
+  padding: 10px;
+}
+
+.my-input form{
+  padding: 0 145px;
+}
+
+.form-group label, .form-group input{
+  display: block;
+  width: 100%;
 }
