@@ -21,7 +21,7 @@
 				<li><a href="index.html">Contact</a></li>
 			</ul>
 			<div class="user">
-				<a href="#">Login</a>
+				<a href="login.html">Login</a>
 			</div>
 		</nav>
 	</header>
@@ -40,38 +40,54 @@
 					<p><a href="#">Switch to both exams</a></p>
 				</div>
 				<div class="col-sm-6 my-input">
-					<div id="contact" class="contact row">
+					<div class="contact row">
 				<div class="col-sm-12">
-					<h1>My information</h1>
+					<h1>My payment details</h1>
 					<form>
+						<div class="form-group">
+							<label>Cardholder name</label>
+							<input id="input-payment-cardname" class="input-field" type="text" name="">
+						</div>
+						<div class="form-group">
+							<label>Card number</label>
+							<input id="input-payment-cardnumber" class="input-field" type="text" name="">
+						</div>
 						<div class="form-group row">
-							<div class="col-sm-6">
-								<label>First Name</label>
-								<input id="input-info-firstname" class="input-field" type="text" name="">
+							<div class="col-sm-4">
+								<label>Expiry date</label>
+								<select id="select-payment-month">
+									<option>January</option>
+									<option>February</option>
+									<option>March</option>
+									<option>April</option>
+									<option>May</option>
+									<option>June</option>
+									<option>July</option>
+									<option>August</option>
+									<option>September</option>
+									<option>October</option>
+									<option>November</option>
+									<option>December</option>
+								</select>
 							</div>
-							<div class="col-sm-6">
-								<label>Last Name</label>
-								<input id="input-info-lastname" class="input-field" type="text" name="">
+							<div class="col-sm-4">
+								<label>0</label>
+								<select id="select-payment-year">
+									<option>2019</option>
+									<option>2020</option>
+									<option>2021</option>
+									<option>2022</option>
+									<option>2023</option>
+									<option>2024</option>
+									<option>2025</option>
+								</select>
+							</div>
+							<div class="col-sm-4">
+								<label>CCV</label>
+								<input id="input-payment-ccv" class="input-field" type="number" name="">
 							</div>
 						</div>
-						<div class="form-group">
-							<label>Law school</label>
-							<select id="input-info-lawschool" name="">
-								<option>One</option>
-								<option>Two</option>
-								<option>Three</option>
-								<option>Four</option>
-							</select>
-						</div>
-						<div class="form-group">
-							<label>Email</label>
-							<input id="input-info-email" class="input-field" type="email" name="">
-						</div>
-						<div class="form-group">
-							<label>Password</label>
-							<input id="input-info-password" class="input-field" type="password" name="">
-						</div>
-						<input id="input-info-submit" class="input-submit" type="submit" value="Next">
+						<input id="input-payment-purchase" class="input-submit" type="submit" value="Purchase">
 					</form>
 				</div>
 			</div>

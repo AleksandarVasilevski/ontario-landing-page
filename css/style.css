@@ -260,7 +260,7 @@ header{
 }
 
 .faq{
-  height: 800px;
+  min-height: 800px;
   background-color: #ecf1f4;
 }
 
@@ -314,7 +314,7 @@ header{
   padding: 0 550px;
 }
 
-.contact form input, form textarea{
+.input-field, .contact form textarea, .contact form select{
   padding: 20px;
   background-color: #ecf1f4;
   border: 0px;
@@ -331,7 +331,7 @@ header{
   width: 99%;
 }
 
-#contact-input-send{
+.input-submit{
   width: 200px;
   margin: auto;
   margin-top: 30px;
@@ -347,7 +347,7 @@ header{
   border-radius: 50px;
 }
 
-#contact-input-send:hover{
+.input-submit:hover{
   color: #fff;
   background-color: #0f81f8;
 }
@@ -441,10 +441,25 @@ header{
 }
 
 .my-input form{
-  padding: 0 145px;
+  padding: 0 240px;
 }
 
 .form-group label, .form-group input{
   display: block;
   width: 100%;
+}
+
+.form-group select{
+  width: 100%;
+}
+
+/* Complete */
+.complete{
+  text-align: center;
+  padding: 150px 250px;
+}
+
+.complete h1{
+  padding: 20px;
+  font-weight: bold;
 }
